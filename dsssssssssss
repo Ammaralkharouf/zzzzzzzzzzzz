@@ -1,0 +1,85 @@
+  <input type="text" value="01592232221" id="myInput">
+  <a href="#" onclick="myFunction()">01592232221</a>
+  
+  
+  
+  <script>
+  function myFunction() {
+    var copyText = document.getElementById("myInput");
+    copyText.select();
+    document.execCommand("copy");
+    
+  }
+  </script>
+
+
+
+    <div id="nav" class="overlay">
+        <a href="#" class="closeBtn" onclick="closeNav()">&times;</a>
+        <div class="overlaycontent">
+                +4915210328935 
+        </div>
+        
+    </div>
+
+    .logo{
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    border: solid 1px #fff;
+    padding: 11px 20px;
+    box-shadow:0px 0px 30px 0px rgba(52, 0, 68, 0.452);
+    border-radius: 2px;
+    
+    background-blend-mode: exclusion;
+    color: rgb(255, 255, 255);
+
+}
+.logo{
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    border: solid 1px #fff;
+    padding: 11px 20px;
+    box-shadow:0px 0px 30px 0px rgba(52, 0, 68, 0.452);
+    border-radius: 2px;
+    
+    background-blend-mode: exclusion;
+    color: rgb(255, 255, 255);
+
+}
+.logo:hover{
+    color: rgb(41, 0, 43);
+    transition: all 0.1s;
+    shape-outside: -moz-linear-gradient()
+}
+
+
+.neon:after{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color: #9100b6;
+    filter: blur(15px);
+   
+}
+.neon:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9100b6;
+    z-index: -2;
+    opacity: .5;
+    filter: blur(40px);
+    
+}
